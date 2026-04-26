@@ -67,7 +67,7 @@ sokr = GameSprite("treasure.png", win_width - 120, win_height - 80, 0)
 wall_1 = Wall(70, 78, 163, 100, 20, 450, 10)
 wall_2 = Wall(70, 78, 163, 100, 480, 350, 10)
 wall_3 = Wall(70, 78, 163, 100, 20, 10, 380)
-wall_4 = Wall(70, 78, 163, 200, 120, 10, 280)
+wall_4 = Wall(70, 78, 163, 200, 120, 10, 200)
 
 game = True
 finish = False
