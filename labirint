@@ -61,13 +61,13 @@ window = display.set_mode((win_width, win_height))
 display.set_caption("Maze")
 background = transform.scale(image.load("background.jpg"), (win_width, win_height))
 
-player1 = Player("hero.png", 5, win_height - 80, 4)
+player1 = Player("leader.png", 5, win_height - 80, 4)
 player2 = Enemy("cyborg.png", win_width - 80, 280, 2)
 sokr = GameSprite("treasure.png", win_width - 120, win_height - 80, 0)
 wall_1 = Wall(70, 78, 163, 100, 20, 450, 10)
 wall_2 = Wall(70, 78, 163, 100, 480, 350, 10)
 wall_3 = Wall(70, 78, 163, 100, 20, 10, 380)
-wall_4 = Wall(70, 78, 163, 200, 120, 10, 200)
+wall_4 = Wall(70, 78, 163, 200, 120, 10, 280)
 
 game = True
 finish = False
